@@ -95,7 +95,7 @@ graph TD
 ### Prerequisites
 - Node.js 16+ and Python 3.11+
 - MongoDB Atlas account
-- Emergent LLM API access
+- Gemini API Key
 
 ### Installation
 
@@ -125,7 +125,7 @@ graph TD
    # Backend (.env)
    MONGO_URL="mongodb://localhost:27017"
    DB_NAME="legidocs_database" 
-   EMERGENT_LLM_KEY="your-emergent-key"
+   GEMINI_API_KEY="your-GEMINI_API_KEY"
    CORS_ORIGINS="*"
    
    # Frontend (.env)
